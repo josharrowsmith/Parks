@@ -4,7 +4,7 @@
 # The Project
 The Project was to build a website for people to find parks facilities in and around Brisbane, Australia.
 The website would allow a user to search for a park in 4 ways, by name, by suburb, by rating and location radius,
-user would also be allowed to sign in and rate parks with a star rating.
+users would also be allowed to sign in and rate parks with a star rating.
 
 
 # Criteria and Framework
@@ -18,7 +18,7 @@ http://165.227.71.5/
 # Screenshots
 <img src="1.png" alt="some text"  width="3000" height="3000">
 
-![screenshots](1.png)
-![screenshots](2.png)
-![screenshots](3.png)
-![screenshots](4.png)
+![screenshots](1.PNH)
+![screenshots](2.PNG)
+![screenshots](3.PNG)
+![screenshots](4.PNG)
