@@ -1,0 +1,277 @@
+#header #imageBanner {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+
+#header #imageBanner img {
+  width: 100%;
+  height: auto;
+}
+
+#footer {
+	border-top: 2px lightgrey solid;
+	font-family: "Monospace", Gadget, sans-serif;
+	color: #D9FFF0;
+	background: #4f4f4f;
+	padding: 25px 0 25px 0;
+	min-width: 400px;
+}
+
+
+#footer div {
+	min-width: 400px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4f4f4f;
+    border-bottom: 2px lightgrey solid;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #D9FFF0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #dbdbdb;
+}
+
+.active {
+    background-color: #dbdbdb;
+}
+
+
+#brBody{
+	position: relative;
+	margin: 0px;
+	/*background-image: url("../images/homepage.jpg");*/
+	background-color: #4f4f4f;
+	background-repeat: no-repeat;
+	font-family: "Monospace", Gadget, sans-serif;
+	color: #000;
+	min-width: 400px;
+	max-width: 100%;
+	height:800px;
+	text-align: center;
+}
+
+
+#body {
+	position: relative;
+	margin: 0px;
+	/*background-image: url("../images/homepage.jpg");*/
+	background-color: #4f4f4f;
+	background-repeat: no-repeat;
+	font-family: "Monospace", Gadget, sans-serif;
+	color: #000;
+	min-width: 400px;
+	max-width: 100%;
+	height: auto !important;
+	min-height: 80%;
+	text-align: center;
+}
+
+#body #title {
+	top-margin:0px;
+	text-transform: uppercase;
+	font-size: 35px;
+	color: #FFF;
+}
+
+#homepage {
+	position: relative;
+	margin-top: 0px;
+	min-width: 450px;
+	overflow: hidden;
+}
+
+/* This sets properties for the image on the homepage */
+#homepage img {
+	min-width: 100%;
+}
+
+/* This sets properties of the center content container on top of the homepage image */
+#homepage #center-content {
+	min-width: 100px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin: 10% 10% 0 0;
+	text-align: left;
+	width: auto;
+}
+
+/* This sets properties of the center content heading on top of the homepage image */
+#homepage #center-content h2 {
+	display: inline-block;
+	background: #fff;
+	color: #000;
+	font-size: 40px;
+	padding: 25px;
+	text-transform: uppercase;
+}
+
+/* This sets properties of the center content description on top of the homepage image */
+#homepage #center-content span {
+	display: inline-block;
+	background: #fff;
+	color: #000;
+	font-size: 18px;
+	padding: 25px;
+}
+
+
+
+#sliderContainer {
+	position: relative;
+	margin-top: 0px;
+	display: block;
+    margin: auto;
+	width: 80%;
+	min-width: 350px;
+	height:800px;
+}
+
+
+#sliderContainer img {
+	max-width: 100%;
+    max-height: 100%;
+}
+
+#body form {
+  margin: 0 auto;
+  max-width: 450px;
+
+}
+
+
+#body form input, #body form div, #body form select{
+	padding: 0 5% 0 5%;
+	min-height: 50px;
+	border: 2px solid #000;
+	font-size: 18px;
+	margin: 10px 0 10px 0;
+	text-align: left;
+	display: inline-block;
+}
+
+#body form input, #body form div{
+	width: 90%;
+}
+
+
+#body form #rbuttons {
+	height: 50px;
+	display:inline-block;
+	text-align: center;
+}
+
+
+#body form #rbuttons input {
+	vertical-align:top;
+	width: 20px;
+	margin: 0 0 0 10px;
+}
+
+#body form #rbuttons span {
+	vertical-align:top;
+	font-family: Monospace, Helvetica, sans-serif;
+	line-height: 50px;
+	width:100px;
+	margin: 0 10px 0 0;
+}
+
+#body form .submit {
+	width: 400px;
+	background: #D9FFF0;
+	border: 2px solid #000;
+	color: #000;
+	font-size: 18px;
+	text-align: center;
+}
+
+#body .googleMap {
+  margin: 30px auto;
+  display: block;
+  width: 800px;
+  height: 400px;
+}
+
+#body #results {
+  border-collapse: collapse;
+  text-align: center;
+  max-width: 900px;
+  margin: 5px auto 5px auto;
+  border: 1px solid #D9FFF0;
+}
+
+/* Sets the border of the results table */
+#body #results th,tr, td {
+  border: 1px solid #D9FFF0;
+}
+
+#body #results tr td{
+	margin: 10px;
+	padding: 10px;
+	color: #000;
+}
+
+
+/* Prevents links to parks in table being displayed as links */
+#body #results tr td a {
+  color: #000;
+  text-decoration: none;
+
+}
+
+/* Sets the style for the table column headings */
+#body #results tr th {
+  padding: 10px 5px;
+  color: #000;
+  background: #D9FFF0;
+}
+
+#searchText {
+	width: 400px;
+}
+
+.slider{
+	margin: auto;
+	min-width: 100%;
+}
+
+.button {
+	position: relative;
+    font: bold 72px arial, sans-serif;
+    color: white;
+    text-shadow: -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
+    display: block;
+    margin: auto;
+    padding:12px 20px;
+    background-color: Transparent;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px;
+  	top:50%;
+}
