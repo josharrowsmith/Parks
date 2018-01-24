@@ -16,9 +16,9 @@ some javascript and html and css.
 http://165.227.71.5/
 
 # Screenshots
-<img src="1.png" alt="some text"  width="3000" height="3000">
+<img src="1.png" alt=""  width="3000" height="3000">
 
-![screenshots](1.PNH)
+![screenshots](1.PNG)
 ![screenshots](2.PNG)
 ![screenshots](3.PNG)
 ![screenshots](4.PNG)
